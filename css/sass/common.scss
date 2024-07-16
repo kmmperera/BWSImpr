@@ -988,6 +988,8 @@ a{
                             display: inline-block;
                             width: 100%;
                             height: 100%;
+                            border-radius: 100%;
+                            object-fit: cover;
                           }
                     }
                     
@@ -1404,3 +1406,18 @@ a{
  
 
 
+// index styles
+
+.index-post-wrapper{
+    font-size: var(--fz-by-1);
+    margin-top: 36px;
+    padding-left:24px;
+    margin-bottom: 32px;
+
+    p{
+        line-height: 1.8;
+    }
+    h1{
+        margin-bottom: 24px;
+    }
+}

@@ -127,3 +127,52 @@ overlay.addEventListener("click",()=>{
    Funcremovemobilenav();
 
 });
+
+
+
+// form submition member page 
+
+jQuery(document).ready(function($){
+    console.log("jq works");
+    $('#memeber-page-service-submit-btn').click(function(e){
+        e.preventDefault();
+        console.log('Form Submitted');
+  
+        let formSelected = e.currentTarget.parentElement;
+  
+         let name   = document.getElementById('name-text').value;
+         let email   = document.getElementById('email-text').value;
+         let message   = document.getElementById('message-text').value;
+         let telnum   = document.getElementById('telnum-text').value;
+        
+            $.ajax({
+                // Pass the admin-ajax.php into url.
+                url: ajax_object.ajax_url,
+                data: {
+                    'action': 'bms_quations_add',
+                    'name': name,
+                    'email': email,
+                    'message': message, 
+                    'telnum': telnum
+                },
+                type: 'post',
+                success: function(res){
+                    document.getElementById("member-modal").innerHTML = res;
+
+                    formSelected.reset();
+                },
+                error: function(err){
+                    document.getElementById("member-modal").innerHTML = err;
+
+                    formSelected.reset();
+                },
+            });
+        
+  
+        
+    });
+
+
+   
+
+  });

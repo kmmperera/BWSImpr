@@ -2,7 +2,9 @@
 
 <?php get_header(); ?>
 
- <div>
+ <div class="h-padding">
+
+      <div class="index-post-wrapper">  
              <h1 class="normal-page-title"><?php the_title(); ?></h1>
              <div class="teacher-thumbnail">
 						
@@ -19,6 +21,8 @@
 
             <?php endwhile;
             else : endif; ?>
+
+       </div>     
   </div>
 
 				

@@ -5,7 +5,7 @@ get_header();
           <div id="hero-wrapper" class="h-padding d-flx">
                 <div id="hero-left">
                     <div id="hero-title">
-                         Impresa JB
+                        BMS Impresa 
                     </div>
                     <div id="hero-sub-title">
                         We do home visits
@@ -213,7 +213,7 @@ get_header();
                                 Sgombero
                         </div>
                         <div class="service-price">
-                            $13.00 / hour
+                            Sopralluogo gratuito
                         </div>
                         <div class="service-description">
                             We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
@@ -232,7 +232,7 @@ get_header();
                                     Trasloco
                             </div>
                             <div class="service-price">
-                                $13.00 / hour
+                                Sopralluogo gratuito
                             </div>
                             <div class="service-description">
                                 We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
@@ -251,7 +251,7 @@ get_header();
                                     Giardinaggio
                             </div>
                             <div class="service-price">
-                                $13.00 / hour
+                                    Sopralluogo gratuito
                             </div>
                             <div class="service-description">
                                 We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
@@ -270,7 +270,7 @@ get_header();
                                     Imbiancatura
                             </div>
                             <div class="service-price">
-                                $13.00 / hour
+                                    Sopralluogo gratuito
                             </div>
                             <div class="service-description">
                                 We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
@@ -289,7 +289,7 @@ get_header();
                                     Confezionamento
                             </div>
                             <div class="service-price">
-                                $13.00 / hour
+                                Sopralluogo gratuito
                             </div>
                             <div class="service-description">
                                 We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
@@ -308,7 +308,7 @@ get_header();
                                     Pulizia condomini, uffici, negozi e appartamenti
                             </div>
                             <div class="service-price">
-                                $13.00 / hour
+                                       Sopralluogo gratuito
                             </div>
                             <div class="service-description">
                                 We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
@@ -327,7 +327,7 @@ get_header();
                                     Lavaggio divani, moquette e tappetti
                             </div>
                             <div class="service-price">
-                                $13.00 / hour
+                                       Sopralluogo gratuito
                             </div>
                             <div class="service-description">
                                 We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
@@ -346,7 +346,7 @@ get_header();
                                     Piccole  riparazioni (anche tapparelle)
                             </div>
                             <div class="service-price">
-                                $13.00 / hour
+                                      Sopralluogo gratuito
                             </div>
                             <div class="service-description">
                                 We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
@@ -451,10 +451,10 @@ get_header();
             <div class="h-padding"  id="impress-contact-area">
                     <div id="impressa-contact-top">
                         <div id="impressa-contact-pic">
-                            <img src="<?php echo get_template_directory_uri().'/images/face5.png'?>" alt="">
+                            <img src="<?php echo get_template_directory_uri().'/images/buddi.jpg'?>" alt="">
                         </div>
                         <div id="impressa-contact-name">
-                            Name Surname
+                             Buddika (Buddi)
                         </div>
                         <div id="impressa-contact-description">
                             Contact our manager at our place or simply make a phone call or just send a message on whatsapp.
@@ -469,7 +469,7 @@ get_header();
                                 Office
                             </div>
                             <div id="impressa-contact-description">
-                                Via s’Allesandro,no 21,Monza,Italia
+                                Via Fucini Renato 2,Monza,Italia
                             </div>
                         </div>
                         <div id="impressa-contact-bottom-right">
@@ -480,8 +480,8 @@ get_header();
                                 Phone
                             </div>
                             <div id="impressa-contact-description">
-                                +39 38 xx xxx xxx
-                                <br> +39 38 xx xxx xxx
+                                +39 329 154 0470 
+                                <br> +39 351 747 7284
                             </div>
                         </div>
                     </div>
@@ -497,17 +497,18 @@ get_header();
                                  nunc, ac gravida quam ligula vel est. In consectetur ultricies sem, in bibendum enim dignissim et. Vestibulum
                                  dictum venenatis est non placerat. Maecenas rutrum nisi a fringilla viverra.
                              </div>
-                             <div id="member-page-service-input-form">
-                                 <input class="member-page-input-text" type="text" placeholder="Name">
-                                 <input class="member-page-input-text" type="text" placeholder="Surname">
-                                 <input class="member-page-input-text" type="text" placeholder="Address">
-                                 <input class="member-page-input-text" type="text" placeholder="Tel Number">
+                             <form id="member-page-service-input-form">
+                                 <input id="name-text" class="member-page-input-text" type="text" placeholder="Full Name">
+                                 <input id="email-text" class="member-page-input-text" type="email" placeholder="Email">
+                                 <input id="telnum-text" class="member-page-input-text" type="text" placeholder="Tel Number">
+                                 <textarea id="message-text" class="member-page-input-text"  rows="3"  placeholder="Message"></textarea>
+
                                 <div id="memeber-page-service-submit-btn">
-                                        <button>Send now</button>
+                                 <button>Send now</button>
 
                                 </div>
-
-                             </div>
+                                <div id="member-modal">  </div>
+                             </form>
 
                 </div>
                   
