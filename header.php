@@ -37,16 +37,16 @@
                     <ul id="nav-ul" class="d-flx j-c-s-b">
 
                         <li class="nav-li">
-                            <a href="#main-container" class="nav-a">Home</a>
+                            <a href="<?php echo home_url();?>#main-container" class="nav-a">Casa</a>
                         </li>
                         <li class="nav-li">
-                            <a href="#impressa-reviews-area" class="nav-a">About</a>
+                            <a href="<?php echo home_url();?>#impressa-reviews-area" class="nav-a">Chi siamo</a>
                         </li>
                         <li class="nav-li">
-                            <a href="#impress-contact-area" class="nav-a">Contact</a>
+                            <a href="<?php echo home_url();?>#impress-contact-area" class="nav-a">Contattaci</a>
                         </li>
                         <li class="nav-li">
-                            <a href="#contact-form-elements-wrapper" class="nav-a impressa">Quatation</a>
+                            <a href="<?php echo home_url();?>#contact-form-elements-wrapper" class="nav-a impressa">Quotazione</a>
                         </li>
 
                     </ul>

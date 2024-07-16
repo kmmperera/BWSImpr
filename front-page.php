@@ -8,20 +8,20 @@ get_header();
                         BMS Impresa 
                     </div>
                     <div id="hero-sub-title">
-                        We do home visits
+                         Siamo disponibili tutta la settimana
                     </div>
                     <div id="hero-description">
-                        Reach us for more details.You can either call us or visit our office in monza
+                         Chiamaci durante l'orario di lavoro. Siamo un'impresa multiservizi di recente apertura a Monza. Forniamo un'ampia gamma di servizi
                     </div>
                     <div id="hero-buttons" class="d-flx">
                         <div id="buynowbtn">
                             <button>
-                             <a href="#contact-form-elements-wrapper">  Contact us </a>
+                             <a href="#contact-form-elements-wrapper">  Contattaci </a>
                             </button>
                         </div>
                         <div id="callnowbtn" class="my-sec-btn">
                             <button>
-                                <a href="#impress-contact-area"> Call now </a>
+                                <a href="#impress-contact-area"> Chiamare ora </a>
                             </button>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ get_header();
                             <video src="<?php echo get_template_directory_uri().'/images/promo-two.mp4'?>" height="100%" width="100%" controls autoplay>
                                 <source src="./inc/images/promo-one.mp4" type="video/mp4">
                                   
-                                    Your browser does not support the video tag.
+                                        Il tuo browser non supporta il tag video.
                                   
 
                             </video>
@@ -46,7 +46,7 @@ get_header();
 
                 <div id="service-slider-title">
                     <div class="title-p">
-                            Our Services
+                             I nostri servizi
                     </div>
                    
                 </div>
@@ -204,7 +204,7 @@ get_header();
             </div>
 
             <div id="services-list" class="h-padding">
-                <div class="impressa-service">
+                <div id="Sgombero" class="impressa-service">
                     <div class="service-left">
                         <img src="<?php echo get_template_directory_uri().'/images/clearance-1.jpg'?> " alt="">
                     </div>
@@ -223,7 +223,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="impressa-service">
+                <div id="Trasloco" class="impressa-service">
                         <div class="service-left">
                             <img src="<?php echo get_template_directory_uri().'/images/move-1.jpg'?>" alt="">
                         </div>
@@ -242,7 +242,7 @@ get_header();
                             </div>
                         </div>
                 </div>
-                <div class="impressa-service">
+                <div id="Giardinaggio" class="impressa-service">
                         <div class="service-left">
                             <img src="<?php echo get_template_directory_uri().'/images/garden-1.jpg'?>" alt="">
                         </div>
@@ -261,7 +261,7 @@ get_header();
                             </div>
                         </div>
                  </div>
-                 <div class="impressa-service">
+                 <div id="Imbiancatura" class="impressa-service">
                         <div class="service-left">
                             <img src="<?php echo get_template_directory_uri().'/images/painting-1.jpg'?>" alt="">
                         </div>
@@ -280,7 +280,7 @@ get_header();
                             </div>
                         </div>
                  </div>
-                 <div class="impressa-service">
+                 <div id="Confezionamento" class="impressa-service">
                         <div class="service-left">
                             <img src="<?php echo get_template_directory_uri().'/images/package-1.jpg'?>" alt="">
                         </div>
@@ -299,7 +299,7 @@ get_header();
                             </div>
                         </div>
                  </div>
-                 <div class="impressa-service">
+                 <div id="Pulizia" class="impressa-service">
                         <div class="service-left">
                             <img src="<?php echo get_template_directory_uri().'/images/apartment-1.jpg'?>" alt="">
                         </div>
@@ -318,7 +318,7 @@ get_header();
                             </div>
                         </div>
                  </div>
-                 <div class="impressa-service">
+                 <div id="Lavaggio" class="impressa-service">
                         <div class="service-left">
                             <img src="<?php echo get_template_directory_uri().'/images/divano-4.jpg'?>" alt="">
                         </div>
@@ -337,7 +337,7 @@ get_header();
                             </div>
                         </div>
                  </div>
-                 <div class="impressa-service">
+                 <div  id="Riparazioni" class="impressa-service">
                         <div class="service-left">
                             <img src="<?php echo get_template_directory_uri().'/images/maintaine-1.jpg'?>" alt="">
                         </div>
@@ -368,10 +368,10 @@ get_header();
                                 <i class="bi bi-star-fill"></i>
                         </div>
                         <div id="impressa-reviews-title">
-                            Reviews
+                             Recensioni
                         </div>
                         <div id="impressa-reviews-description">
-                            What others say about us
+                                Cosa dicono gli altri di noi
                         </div>
                         <div id="bottom-stars" class="impressa-stars">
                                 <i class="bi bi-star-fill"></i>
@@ -388,8 +388,8 @@ get_header();
                             </div>
                             <div class="impressa-review-core">
                                 <div class="impressa-review-description">
-                                    This is a review comment.This is a review comment.This is a review comment.This is a review comment.This is a review comment.This
-                                    is a review comment.This is a review comment.
+                                    Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di 
+                                    revisione.Questo è un commento di revisione.
                                 </div>
                                 <div class="impressa-review-author">
                                     <div class="impressa-review-author-pic">
@@ -409,8 +409,8 @@ get_header();
                             </div>
                             <div class="impressa-review-core">
                                 <div class="impressa-review-description">
-                                    This is a review comment.This is a review comment.This is a review comment.This is a review comment.This is a review comment.This
-                                    is a review comment.This is a review comment.
+                                    Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di 
+                                    revisione.Questo è un commento di revisione.
                                 </div>
                                 <div class="impressa-review-author">
                                     <div class="impressa-review-author-pic">
@@ -430,8 +430,8 @@ get_header();
                             </div>
                             <div class="impressa-review-core">
                                 <div class="impressa-review-description">
-                                    This is a review comment.This is a review comment.This is a review comment.This is a review comment.This is a review comment.This
-                                    is a review comment.This is a review comment.
+                                    Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di 
+                                    revisione.Questo è un commento di revisione.
                                 </div>
                                 <div class="impressa-review-author">
                                     <div class="impressa-review-author-pic">
@@ -457,8 +457,9 @@ get_header();
                              Buddika (Buddi)
                         </div>
                         <div id="impressa-contact-description">
-                            Contact our manager at our place or simply make a phone call or just send a message on whatsapp.
-                        </div>
+                              Contatta il nostro responsabile tramite una telefonata o semplicemente invia un messaggio su whatsapp.(dalle 8:00 alle 18:00)  
+                            
+                            </div>
                     </div>
                     <div id="impressa-contact-bottom">
                         <div id="impressa-contact-bottom-left">
@@ -466,7 +467,7 @@ get_header();
                                     <i class="bi bi-house-door-fill"></i>
                             </div>
                             <div id="impressa-contact-name">
-                                Office
+                               Ufficio
                             </div>
                             <div id="impressa-contact-description">
                                 Via Fucini Renato 2,Monza,Italia
@@ -477,7 +478,7 @@ get_header();
                                     <i class="bi bi-telephone-fill"></i>
                             </div>
                             <div id="impressa-contact-name">
-                                Phone
+                                 Telefono
                             </div>
                             <div id="impressa-contact-description">
                                 +39 329 154 0470 
@@ -490,21 +491,20 @@ get_header();
             <div class="h-padding other-bg-color" id="contact-form-area">
                 <div id="contact-form-elements-wrapper">
                         <div class="member-page-service-title">
-                                Contact us
+                                    Contattaci
                              </div>
                              <div id="member-page-service-description">
-                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, dui id volutpat vestibulum, orci ipsum pharetra
-                                 nunc, ac gravida quam ligula vel est. In consectetur ultricies sem, in bibendum enim dignissim et. Vestibulum
-                                 dictum venenatis est non placerat. Maecenas rutrum nisi a fringilla viverra.
-                             </div>
+                                     Scrivici per conoscere gli ultimi prezzi. Saremo lieti di ricevere messaggi da voi. Ti invieremo preventivi 
+                                     per le tue richieste. Compila semplicemente il modulo e fai clic su invia ora.             
+                              </div>
                              <form id="member-page-service-input-form">
-                                 <input id="name-text" class="member-page-input-text" type="text" placeholder="Full Name">
-                                 <input id="email-text" class="member-page-input-text" type="email" placeholder="Email">
-                                 <input id="telnum-text" class="member-page-input-text" type="text" placeholder="Tel Number">
-                                 <textarea id="message-text" class="member-page-input-text"  rows="3"  placeholder="Message"></textarea>
+                                 <input id="name-text" class="member-page-input-text" type="text" placeholder="Nome e cognome">
+                                 <input id="email-text" class="member-page-input-text" type="email" placeholder="E-mail">
+                                 <input id="telnum-text" class="member-page-input-text" type="text" placeholder="Numero di telefono">
+                                 <textarea id="message-text" class="member-page-input-text"  rows="3"  placeholder="Messaggio"></textarea>
 
                                 <div id="memeber-page-service-submit-btn">
-                                 <button>Send now</button>
+                                 <button>Invia ora</button>
 
                                 </div>
                                 <div id="member-modal">  </div>

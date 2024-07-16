@@ -128,8 +128,17 @@ a {
 }
 
 #main-nav {
-  position: relative;
-  margin-top: 0.5em;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#main-nav.active {
+  background: rgb(236, 241, 238);
+  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.1);
+  padding-block: 16px;
 }
 
 #logo-area {
@@ -179,7 +188,7 @@ a {
     margin-left: 0 !important;
   }
   #main-nav {
-    position: relative;
+    position: fixed;
   }
   #main-nav #nav-menus {
     pointer-events: none;
@@ -253,7 +262,7 @@ a {
 }
 
 #hero-wrapper {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 #hero-left {
@@ -378,6 +387,7 @@ a {
   #hero-wrapper {
     flex-direction: column;
     align-items: center;
+    margin-top: 3em;
   }
   #hero-right {
     order: -1;
@@ -400,6 +410,16 @@ a {
   }
   #hero-left #hero-sub-title {
     font-size: 1em;
+  }
+}
+@media (max-width: 576px) {
+  #hero-wrapper {
+    margin-top: 6em;
+  }
+}
+@media (max-width: 375px) {
+  #hero-wrapper {
+    margin-top: 8em;
   }
 }
 #post-swiper-wrapper {
@@ -561,7 +581,7 @@ a {
 }
 #impressa-reviews-area #impressa-review-left #impressa-reviews-title {
   font-size: 2.5em;
-  letter-spacing: 24px;
+  letter-spacing: 12px;
   font-weight: 500;
 }
 #impressa-reviews-area #impressa-review-left #impressa-reviews-description {
@@ -639,7 +659,7 @@ a {
   }
   #impressa-reviews-area #impressa-review-left #impressa-reviews-title {
     font-size: 2.5em;
-    letter-spacing: 24px;
+    letter-spacing: 12px;
     font-weight: 500;
   }
   #impressa-reviews-area #impressa-review-left #impressa-reviews-description {
@@ -930,6 +950,14 @@ a {
   color: #D7F5E3;
   line-height: 1.6;
 }
+#footer-section-wrapper .section-four #social-media-links {
+  margin-top: 12px;
+}
+#footer-section-wrapper .section-four #social-media-links a {
+  color: inherit;
+  margin-right: 12px;
+}
+
 #footer-divider-line {
   font-size: var(--fz-by-1);
   margin-top: 3em;
@@ -951,6 +979,12 @@ a {
 #footer-bottom-section #footer-bttm-middle {
   gap: 2em;
 }
+#footer-bottom-section #footer-bttm-middle #footer-middle-one a {
+  color: inherit;
+}
+#footer-bottom-section #footer-bttm-middle #footer-middle-two a {
+  color: inherit;
+}
 @media (max-width: 768px) {
   #footer-section-wrapper {
     flex-wrap: wrap;
@@ -966,7 +1000,7 @@ a {
 }
 .index-post-wrapper {
   font-size: var(--fz-by-1);
-  margin-top: 36px;
+  margin-top: 6em;
   padding-left: 24px;
   margin-bottom: 32px;
 }
@@ -975,6 +1009,21 @@ a {
 }
 .index-post-wrapper h1 {
   margin-bottom: 24px;
+}
+
+#notfoundmessage {
+  text-align: center;
+}
+
+#notfound-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 50px;
+}
+
+#footer-bttm-right ul li {
+  list-style: none;
 }
 
 /*# sourceMappingURL=common.css.map */

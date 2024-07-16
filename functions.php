@@ -22,8 +22,12 @@ register_nav_menus(
 
 function budd_enqueue_scripts() {	
 
+	$num1=rand(1,999);
+	$num2=rand(1,999);
+	$num3=($num1+$num2)/2;
 
-	wp_enqueue_style( 'commonstyles', get_stylesheet_directory_uri() . '/css/sass/common.css', '', '1.0.6', 'all' );
+
+	wp_enqueue_style( 'commonstyles', get_stylesheet_directory_uri() . '/css/sass/common.css', '', $num3, 'all' );
 
 	wp_enqueue_style( 'swiperjscss', 'https://unpkg.com/swiper/swiper-bundle.min.css', '', '1.0.0', 'all' );
 
@@ -38,7 +42,7 @@ function budd_enqueue_scripts() {
 	wp_register_script('swiperjs','https://unpkg.com/swiper/swiper-bundle.min.js',array(),'1.0.0',true);
 	wp_enqueue_script('swiperjs');
 
-	wp_register_script('mainjs',get_template_directory_uri().'/js/main.js',array('jquery','swiperjs'),'1.0.2',true);
+	wp_register_script('mainjs',get_template_directory_uri().'/js/main.js',array('jquery','swiperjs'),$num3,true);
 	wp_enqueue_script('mainjs');
 
 	wp_localize_script( 'mainjs', 'ajax_object', [ 'ajax_url' => admin_url('admin-ajax.php') ] );

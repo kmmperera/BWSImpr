@@ -176,3 +176,17 @@ jQuery(document).ready(function($){
    
 
   });
+
+
+  /**
+ * header sticky functionality
+ */
+
+const header = document.getElementById("main-nav");
+
+window.addEventListener("scroll", function () {
+    
+
+  window.scrollY >= 20 ? header.classList.add("active") : header.classList.remove("active");
+
+});

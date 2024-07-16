@@ -172,8 +172,17 @@ a{
                 // main navigation
 
 #main-nav{
-    position: relative;
-    margin-top: 0.5em;
+    position: fixed;
+   
+    width: 100%;
+    z-index: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#main-nav.active{
+    background:rgb(236, 241, 238);
+    box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.1);
+    padding-block: 16px;
 }
 	#logo-area { 
         font-size: var(--fz-by-1);
@@ -264,7 +273,8 @@ a{
     }
 
 	#main-nav{
-		  position: relative;
+          position: fixed;
+         
 			#nav-menus { 
 				            pointer-events: none;
                             position: fixed;
@@ -368,7 +378,7 @@ a{
                            // hero section
  
 #hero-wrapper{
-    margin-top: 1em;      
+    margin-top: 2em;      
 }
       #hero-left { 
               flex: 1.5;
@@ -531,6 +541,7 @@ a{
     #hero-wrapper{
         flex-direction: column;
         align-items: center;
+        margin-top: 3em;
     }
     #hero-right{
         order: -1;
@@ -560,7 +571,20 @@ a{
     }
 
 }
+@media(max-width:576px){
 
+    #hero-wrapper{
+       
+        margin-top: 6em;
+    }
+}
+@media(max-width:375px){
+
+    #hero-wrapper{
+       
+        margin-top: 8em;
+    }
+}
                        // swiperjs slider
 
  #post-swiper-wrapper{
@@ -779,7 +803,7 @@ a{
                     
                      #impressa-reviews-title { 
                          font-size:2.5em;
-                         letter-spacing: 24px;
+                         letter-spacing: 12px;
                          font-weight: 500;
                     
                       }
@@ -888,7 +912,7 @@ a{
                        
                         #impressa-reviews-title { 
                             font-size:2.5em;
-                            letter-spacing: 24px;
+                            letter-spacing: 12px;
                             font-weight: 500;
                        
                          }
@@ -1317,6 +1341,11 @@ a{
 
             }
             #social-media-links{
+                margin-top: 12px;
+                a{
+                    color: inherit;
+                    margin-right: 12px;
+                }
 
             }
         }
@@ -1355,11 +1384,15 @@ a{
             gap: 2em;
 
 			#footer-middle-one { 
-
+                a{
+                    color: inherit;
+                }
 			}
 
 			#footer-middle-two { 
-
+                a{
+                    color: inherit;
+                }
 			}
 		}
 
@@ -1410,7 +1443,7 @@ a{
 
 .index-post-wrapper{
     font-size: var(--fz-by-1);
-    margin-top: 36px;
+    margin-top: 6em;
     padding-left:24px;
     margin-bottom: 32px;
 
@@ -1419,5 +1452,27 @@ a{
     }
     h1{
         margin-bottom: 24px;
+    }
+}
+
+// 404 page
+#notfoundmessage{
+    text-align: center;
+}
+
+#notfound-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block:50px;
+}
+// translations
+
+#footer-bttm-right{
+
+    ul{
+        li{
+            list-style:none;
+        }
     }
 }
