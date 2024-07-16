@@ -216,7 +216,8 @@ get_header();
                             Sopralluogo gratuito
                         </div>
                         <div class="service-description">
-                            We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
+                            Operiamo nelle zone di Monza e Milano. Visitiamo la vostra sede con le attrezzature e le persone giuste
+                             per portare a termine il lavoro. Abbiamo prezzi ragionevoli e un'eccellente soddisfazione del cliente.
                         </div>
                         <div class="service-icon">
                            
@@ -254,7 +255,8 @@ get_header();
                                     Sopralluogo gratuito
                             </div>
                             <div class="service-description">
-                                We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
+                            Operiamo nelle zone di Monza e Milano. Visitiamo la vostra sede con le attrezzature e le persone giuste
+                             per portare a termine il lavoro. Abbiamo prezzi ragionevoli e un'eccellente soddisfazione del cliente.
                             </div>
                             <div class="service-icon">
                                 
@@ -273,7 +275,8 @@ get_header();
                                     Sopralluogo gratuito
                             </div>
                             <div class="service-description">
-                                We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
+                            Operiamo nelle zone di Monza e Milano. Visitiamo la vostra sede con le attrezzature e le persone giuste
+                             per portare a termine il lavoro. Abbiamo prezzi ragionevoli e un'eccellente soddisfazione del cliente.
                             </div>
                             <div class="service-icon">
                                 
@@ -292,7 +295,8 @@ get_header();
                                 Sopralluogo gratuito
                             </div>
                             <div class="service-description">
-                                We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
+                            Operiamo nelle zone di Monza e Milano. Visitiamo la vostra sede con le attrezzature e le persone giuste
+                             per portare a termine il lavoro. Abbiamo prezzi ragionevoli e un'eccellente soddisfazione del cliente.
                             </div>
                             <div class="service-icon">
                                 
@@ -311,7 +315,8 @@ get_header();
                                        Sopralluogo gratuito
                             </div>
                             <div class="service-description">
-                                We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
+                            Operiamo nelle zone di Monza e Milano. Visitiamo la vostra sede con le attrezzature e le persone giuste
+                             per portare a termine il lavoro. Abbiamo prezzi ragionevoli e un'eccellente soddisfazione del cliente.
                             </div>
                             <div class="service-icon">
                                 
@@ -330,7 +335,8 @@ get_header();
                                        Sopralluogo gratuito
                             </div>
                             <div class="service-description">
-                                We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
+                            Operiamo nelle zone di Monza e Milano. Visitiamo la vostra sede con le attrezzature e le persone giuste
+                             per portare a termine il lavoro. Abbiamo prezzi ragionevoli e un'eccellente soddisfazione del cliente.
                             </div>
                             <div class="service-icon">
                                 
@@ -349,7 +355,8 @@ get_header();
                                       Sopralluogo gratuito
                             </div>
                             <div class="service-description">
-                                We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone . We do home visits in milano zone .
+                            Operiamo nelle zone di Monza e Milano. Visitiamo la vostra sede con le attrezzature e le persone giuste
+                             per portare a termine il lavoro. Abbiamo prezzi ragionevoli e un'eccellente soddisfazione del cliente.
                             </div>
                             <div class="service-icon">
                                 
@@ -388,16 +395,16 @@ get_header();
                             </div>
                             <div class="impressa-review-core">
                                 <div class="impressa-review-description">
-                                    Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di 
-                                    revisione.Questo è un commento di revisione.
+                                    Ho conosciuto BMS tramite un amico. Sono davvero felice. Li ho assunti poche volte e non ci hanno mai deluso. Ho una grande 
+                                    fiducia in loro
                                 </div>
                                 <div class="impressa-review-author">
                                     <div class="impressa-review-author-pic">
                                         <img src="<?php echo get_template_directory_uri().'/images/face4.png'?> " alt="">
                                     </div>
                                     <div class="impressa-review-author-name">
-                                        Name Surname
-                                        <strong class="author-role">Manager-ABC Srl</strong>
+                                       Monika Robertino
+                                        <strong class="author-role">Manager-Luxury Hotels  Srl</strong>
         
                                     </div>
                                 </div>
@@ -409,16 +416,16 @@ get_header();
                             </div>
                             <div class="impressa-review-core">
                                 <div class="impressa-review-description">
-                                    Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di 
-                                    revisione.Questo è un commento di revisione.
+                                    Mi piace molto il modo in cui hanno gestito il lavoro. Anche i prezzi sono molto convenienti. 
+                                    Do cinque stelle. Grazie mille.
                                 </div>
                                 <div class="impressa-review-author">
                                     <div class="impressa-review-author-pic">
                                         <img src="<?php echo get_template_directory_uri().'/images/face5.png'?>" alt="">
                                     </div>
                                     <div class="impressa-review-author-name">
-                                        Name Surname
-                                        <strong class="author-role">Manager-ABC Srl</strong>
+                                       Maurizio Botto
+                                        <strong class="author-role">Manager-Risturante Lesmo Srl</strong>
         
                                     </div>
                                 </div>
@@ -430,16 +437,16 @@ get_header();
                             </div>
                             <div class="impressa-review-core">
                                 <div class="impressa-review-description">
-                                    Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di revisione.Questo è un commento di 
-                                    revisione.Questo è un commento di revisione.
+                                    Servizio esperto e professionale. Hanno mantenuto la fiducia che avevamo in loro. Soddisfatti al 100%. Siamo lieti di averli 
+                                    trovati. La migliore impresa nell'area di Milano. Li consigliamo a tutti
                                 </div>
                                 <div class="impressa-review-author">
                                     <div class="impressa-review-author-pic">
-                                        <img src="<?php echo get_template_directory_uri().'/images/face4.png'?>" alt="">
+                                        <img src="<?php echo get_template_directory_uri().'/images/face3.jpg'?>" alt="">
                                     </div>
                                     <div class="impressa-review-author-name">
-                                        Name Surname
-                                        <strong class="author-role">Manager-ABC Srl</strong>
+                                       Sandra Evanka
+                                        <strong class="author-role">Manager-Spa Monza Srl</strong>
         
                                     </div>
                                 </div>

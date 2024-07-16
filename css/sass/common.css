@@ -133,6 +133,7 @@ a {
   z-index: 500;
   padding-top: 12px;
   padding-bottom: 12px;
+  max-width: 1600px;
 }
 
 #main-nav.active {
@@ -628,6 +629,8 @@ a {
 #impressa-reviews-area #impressa-review-right .impressa-review .impressa-review-core .impressa-review-author .impressa-review-author-pic img {
   width: 100%;
   height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
 }
 #impressa-reviews-area #impressa-review-right .impressa-review .impressa-review-core .impressa-review-author .impressa-review-author-name {
   font-size: 0.9em;

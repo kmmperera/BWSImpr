@@ -178,6 +178,7 @@ a{
     z-index: 500;
     padding-top: 12px;
     padding-bottom: 12px;
+    max-width: 1600px; 
 }
 #main-nav.active{
     background:rgb(236, 241, 238);
@@ -862,6 +863,8 @@ a{
                                          img { 
                                             width: 100%;
                                             height: 100%;
+                                            border-radius: 100%;
+                                            object-fit: cover;
                                          }
                                      }
                     
