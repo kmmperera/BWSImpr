@@ -116,7 +116,6 @@ function bmsquationfunc(){
 			$address = $_POST['email'];
 			$telnum = $_POST['telnum'];
 			
-			
 			$final_content="Full Name: ".$name." \n";
 			$final_content .="Email address: ".$address."\n";
 			$final_content .="Telephone Number: ".$telnum."\n";
@@ -144,11 +143,11 @@ function bmsquationfunc(){
  
 		  if(  wp_mail($to, $subject, $message, $headers)){
 
-			echo 'You have submitted details successfully';
+			echo 'Hai inviato i dettagli con successo';
 
 		  }
 		  else{
-			echo 'Failed.Something went wrong.Try again after a while';
+			echo 'Operazione non riuscita. Qualcosa è andato storto. Riprova più tardi';
 		  }
 
 

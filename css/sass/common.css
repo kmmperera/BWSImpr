@@ -295,44 +295,70 @@ a {
   margin-top: 4em;
   gap: 48px;
 }
-#hero-left #hero-buttons #buynowbtn button {
+#hero-left #hero-buttons #contactnowbtn {
+  height: 3em;
+  width: 8em;
+}
+#hero-left #hero-buttons #contactnowbtn button {
   background-color: #17BC59;
   color: white;
   border: none;
-  padding: 0.9em 1.8em;
   font-size: 0.9em;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#hero-left #hero-buttons #buynowbtn button a {
+#hero-left #hero-buttons #contactnowbtn button a {
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
   color: white;
+  height: 100%;
+  width: 100%;
 }
-#hero-left #hero-buttons #buynowbtn button:focus {
+#hero-left #hero-buttons #contactnowbtn button:focus {
   outline: none;
   box-shadow: 0 0 0 4px #7AFA7F;
 }
-#hero-left #hero-buttons #buynowbtn button:hover {
+#hero-left #hero-buttons #contactnowbtn button:hover {
   background-color: #19B300;
   transform: translateY(-2px);
 }
-#hero-left #hero-buttons #buynowbtn button:active {
+#hero-left #hero-buttons #contactnowbtn button:active {
   background-color: #269400;
   transform: translateY(2px);
+}
+#hero-left #hero-buttons #callnowbtn {
+  height: 3em;
+  width: 8em;
 }
 #hero-left #hero-buttons #callnowbtn button {
   background-color: #fff;
   color: #129346;
   border: 1px solid #075E2A;
-  padding: 0.9em 1.8em;
   font-size: 0.9em;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #hero-left #hero-buttons #callnowbtn button a {
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   color: #129346;
 }
 #hero-left #hero-buttons #callnowbtn button:focus {
@@ -405,9 +431,6 @@ a {
   }
   #hero-left #hero-buttons {
     margin-top: 2em;
-  }
-  #hero-left #hero-buttons button {
-    font-size: 0.7em !important;
   }
   #hero-left #hero-sub-title {
     font-size: 1em;
@@ -876,11 +899,11 @@ a {
   border-radius: 4px;
   letter-spacing: 1px;
 }
-#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn {
+#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn-div {
   font-size: 1em;
   margin-bottom: 2em;
 }
-#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn button {
+#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn-div button {
   background-color: #17BC59;
   color: white;
   border: none;
@@ -891,15 +914,15 @@ a {
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn button:focus {
+#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn-div button:focus {
   outline: none;
   box-shadow: 0 0 0 4px #7AFA7F;
 }
-#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn button:hover {
+#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn-div button:hover {
   background-color: #19B300;
   transform: translateY(-2px);
 }
-#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn button:active {
+#contact-form-area #contact-form-elements-wrapper #member-page-service-input-form #memeber-page-service-submit-btn-div button:active {
   background-color: #269400;
   transform: translateY(2px);
 }

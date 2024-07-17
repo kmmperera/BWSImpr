@@ -4,7 +4,7 @@
             <div class="h-padding" id="footer">
                 <div id="footer-logo-area" class="d-flx a-i-c">
                     <div id="footer-logo" class="logo-img-class">
-                        <img class="img-class" src="<?php echo get_template_directory_uri().'/images/logo-footer-n.png'?>" alt="">
+                        <img class="img-class" src="<?php echo get_template_directory_uri().'/images/logo-footer-r.png'?>" alt="">
                     </div>
                     <div id="footer-logo-description" class="logo-text-class">
                        
@@ -14,20 +14,20 @@
                 <div id="footer-section-wrapper" class="d-flx j-c-s-b">
                     <div class="sections-wrapper section-one">
                         <div class="footer-section-title">
-                                Chi siamo
+                               CHI SIAMO
                         </div>
                         <ul class="footer-links-ul">
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#impressa-reviews-area" class="footer-li-a">Chi siamo</a>
+                                <a href="<?php bms_get_home_url_link();?>#impressa-reviews-area" class="footer-li-a">Chi siamo</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#impress-contact-area" class="footer-li-a">Contattaci</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#impress-contact-area" class="footer-li-a">Contattaci</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#first-img-container" class="footer-li-a">Promozioni</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#first-img-container" class="footer-li-a">Promozioni</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#contact-form-elements-wrapper" class="footer-li-a">Scrivici</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#contact-form-elements-wrapper" class="footer-li-a">Scrivici</a>
                             </li>
 
 
@@ -39,57 +39,57 @@
                         </div>
                         <ul class="footer-links-ul">
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#impress-contact-area" class="footer-li-a">Dove siamo</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#impress-contact-area" class="footer-li-a">Dove siamo</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#post-swiper-wrapper" class="footer-li-a">I nostri servizi</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#post-swiper-wrapper" class="footer-li-a">I nostri servizi</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#impress-contact-area" class="footer-li-a">Posizioni</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#impress-contact-area" class="footer-li-a">Posizioni</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#contact-form-area" class="footer-li-a">Prezzi</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#contact-form-area" class="footer-li-a">Prezzi</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#impress-contact-area" class="footer-li-a">Il nostro manager</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#impress-contact-area" class="footer-li-a">Il nostro manager</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#impress-contact-area" class="footer-li-a">Orario</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#impress-contact-area" class="footer-li-a">Orario</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#impress-contact-area" class="footer-li-a">Telefono</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#impress-contact-area" class="footer-li-a">Telefono</a>
                             </li>
 
                         </ul>
                     </div> 
                     <div class="sections-wrapper section-three">
                         <div class="footer-section-title">
-                            SERVICES
+                                SERVIZI
                         </div>
                         <ul  class="footer-links-ul">
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#services-list" class="footer-li-a">Sgombero</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#service-slider-title" class="footer-li-a">Sgombero</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#Sgombero" class="footer-li-a">Trasloco</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#Sgombero" class="footer-li-a">Trasloco</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#Trasloco" class="footer-li-a">Giardinaggio</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#Trasloco" class="footer-li-a">Giardinaggio</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#Giardinaggio" class="footer-li-a">Imbiancatura</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#Giardinaggio" class="footer-li-a">Imbiancatura</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#Imbiancatura" class="footer-li-a">Confezionamento</a>
+                                <a href="<?php bms_get_home_url_link(); ?>#Imbiancatura" class="footer-li-a">Confezionamento</a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#Confezionamento" class="footer-li-a">Pulizia </a>
+                                <a href="<?php bms_get_home_url_link(); ?>#Confezionamento" class="footer-li-a">Pulizia </a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#Pulizia" class="footer-li-a">Lavaggio </a>
+                                <a href="<?php bms_get_home_url_link(); ?>#Pulizia" class="footer-li-a">Lavaggio </a>
                             </li>
                             <li class="footer-li">
-                                <a href="<?php echo home_url();?>#Lavaggio" class="footer-li-a">Riparazioni  </a>
+                                <a href="<?php bms_get_home_url_link(); ?>#Lavaggio" class="footer-li-a">Riparazioni  </a>
                             </li>
 
 

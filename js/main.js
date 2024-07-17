@@ -135,15 +135,41 @@ overlay.addEventListener("click",()=>{
 jQuery(document).ready(function($){
     console.log("jq works");
     $('#memeber-page-service-submit-btn').click(function(e){
-        e.preventDefault();
+            e.preventDefault();
+            // let isValid=true;
+        
+            // $('#mmember-page-service-input-formn input').each(function(){
+            //     console.log("happening");
+            //     if($(this).val().trim()===''){
+            //         isValid=false;
+            //     }
+            //     if(!isValid){
+            //         document.getElementById("member-modal").innerHTML = 'Fill all the fields';
+            //         return false;
+
+            //     }
+            // });
+
+      
+       
+
+       
         console.log('Form Submitted');
   
-        let formSelected = e.currentTarget.parentElement;
+      //  let formSelected = e.currentTarget.parentElement;
+        let formSelected = $('#mmember-page-service-input-formn');
+
   
          let name   = document.getElementById('name-text').value;
          let email   = document.getElementById('email-text').value;
          let message   = document.getElementById('message-text').value;
          let telnum   = document.getElementById('telnum-text').value;
+
+        if(name == "" || email == ""||  message == "" || telnum == ""){
+            document.getElementById("member-modal").innerHTML = 'Compilare il modulo ';
+
+            return false;
+        }
         
             $.ajax({
                 // Pass the admin-ajax.php into url.
@@ -168,7 +194,7 @@ jQuery(document).ready(function($){
                 },
             });
         
-  
+      
         
     });
 

@@ -420,21 +420,36 @@ a{
                     margin-top: 4em;
                     gap: 48px;
 
-                    #buynowbtn{
-
+                   
+                    #contactnowbtn{ 
+                        height: 3em;
+                        width: 8em;
                         button{
                             background-color: #17BC59;
                             color: white;
                             border: none;
-                            padding: 0.9em 1.8em;
+                          
                             font-size: 0.9em;
                             border-radius: 5px;
                             cursor: pointer;
                             transition: background-color 0.3s ease, transform 0.3s ease;
                             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-                            
+                            height: 100%;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
                             a{
+                                display: inline-flex !important;
+                                justify-content: center;
+                                align-items: center;
+    
                                 color: white;
+                               
+                                height: 100%;
+                                width: 100%;
+
                             }
                         }
                 
@@ -451,22 +466,36 @@ a{
                             transform: translateY(2px);
                         
                         }
-                    }
-                
+                    
+                    }    
                     #callnowbtn{
+                        height: 3em;
+                        width: 8em;
+
                 
                         button{
                             background-color: #fff;
                             color:#129346;
                             border:1px solid #075E2A;
-                            padding: 0.9em 1.8em;
                             font-size: 0.9em;
                             border-radius: 5px;
                             cursor: pointer;
                             transition: background-color 0.3s ease, transform 0.3s ease;
                             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                            height: 100%;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
                             
                             a{
+                                display: inline-flex !important;
+                                justify-content: center;
+                                align-items: center;
+                                height: 100%;
+                                width: 100%;
+
                                 color:#129346;
                             }
                         }
@@ -563,7 +592,7 @@ a{
             margin-top: 2em;
 
             button{
-                font-size: 0.7em !important;
+               // font-size: 0.7em !important;
             }
         }
         #hero-sub-title{
@@ -1210,7 +1239,7 @@ a{
                     
                    }
                     
-                  #memeber-page-service-submit-btn { 
+                  #memeber-page-service-submit-btn-div { 
 
                     font-size: 1em;
                    

@@ -14,11 +14,13 @@ get_header();
                          Chiamaci durante l'orario di lavoro. Siamo un'impresa multiservizi di recente apertura a Monza. Forniamo un'ampia gamma di servizi
                     </div>
                     <div id="hero-buttons" class="d-flx">
-                        <div id="buynowbtn">
+                       <div id="contactnowbtn">
+
+                       
                             <button>
                              <a href="#contact-form-elements-wrapper">  Contattaci </a>
                             </button>
-                        </div>
+                         </div>
                         <div id="callnowbtn" class="my-sec-btn">
                             <button>
                                 <a href="#impress-contact-area"> Chiamare ora </a>
@@ -285,7 +287,7 @@ get_header();
                  </div>
                  <div id="Confezionamento" class="impressa-service">
                         <div class="service-left">
-                            <img src="<?php echo get_template_directory_uri().'/images/package-1.jpg'?>" alt="">
+                            <img src="<?php echo get_template_directory_uri().'/images/package-3.jpg'?>" alt="">
                         </div>
                         <div class="service-right">
                             <div class="service-title">
@@ -458,7 +460,7 @@ get_header();
             <div class="h-padding"  id="impress-contact-area">
                     <div id="impressa-contact-top">
                         <div id="impressa-contact-pic">
-                            <img src="<?php echo get_template_directory_uri().'/images/buddi.jpg'?>" alt="">
+                            <img src="<?php echo get_template_directory_uri().'/images/buddi-2.jpg'?>" alt="">
                         </div>
                         <div id="impressa-contact-name">
                              Buddika (Buddi)
@@ -504,14 +506,14 @@ get_header();
                                      Scrivici per conoscere gli ultimi prezzi. Saremo lieti di ricevere messaggi da voi. Ti invieremo preventivi 
                                      per le tue richieste. Compila semplicemente il modulo e fai clic su invia ora.             
                               </div>
-                             <form id="member-page-service-input-form">
-                                 <input id="name-text" class="member-page-input-text" type="text" placeholder="Nome e cognome">
-                                 <input id="email-text" class="member-page-input-text" type="email" placeholder="E-mail">
-                                 <input id="telnum-text" class="member-page-input-text" type="text" placeholder="Numero di telefono">
-                                 <textarea id="message-text" class="member-page-input-text"  rows="3"  placeholder="Messaggio"></textarea>
+                             <form action="" id="member-page-service-input-form">
+                                 <input id="name-text" class="member-page-input-text" type="text" placeholder="Nome e cognome" required>
+                                 <input id="email-text" class="member-page-input-text" type="email" placeholder="E-mail" required>
+                                 <input id="telnum-text" class="member-page-input-text" type="text" placeholder="Numero di telefono" required>
+                                 <textarea id="message-text" class="member-page-input-text"  rows="3"  placeholder="Messaggio" required></textarea>
 
-                                <div id="memeber-page-service-submit-btn">
-                                 <button>Invia ora</button>
+                                <div id="memeber-page-service-submit-btn-div" >
+                                 <button id="memeber-page-service-submit-btn">Invia ora</button>
 
                                 </div>
                                 <div id="member-modal">  </div>
