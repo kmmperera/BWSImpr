@@ -857,6 +857,10 @@ a {
   margin-top: 1em;
   line-height: 2;
 }
+#impress-contact-area #impressa-contact-bottom #impressa-contact-bottom-right #impressa-contact-description .bi-whatsapp {
+  color: #19B300;
+}
+
 @media (max-width: 768px) {
   #impress-contact-area {
     margin-top: 2em;

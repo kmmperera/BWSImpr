@@ -157,7 +157,7 @@ jQuery(document).ready(function($){
         console.log('Form Submitted');
   
       //  let formSelected = e.currentTarget.parentElement;
-        let formSelected = $('#mmember-page-service-input-formn');
+        let formSelected = $('#member-page-service-input-form');
 
   
          let name   = document.getElementById('name-text').value;
@@ -185,12 +185,12 @@ jQuery(document).ready(function($){
                 success: function(res){
                     document.getElementById("member-modal").innerHTML = res;
 
-                    formSelected.reset();
+                    formSelected[0].reset();
                 },
                 error: function(err){
                     document.getElementById("member-modal").innerHTML = err;
 
-                    formSelected.reset();
+                    formSelected[0].reset();
                 },
             });
         

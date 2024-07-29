@@ -136,7 +136,7 @@ function bmsquationfunc(){
 		//send mail
 
 		   $from = 'contact@bmsimpresa.com';
-		   $to = "kmmperera@gmail.com";
+		   $to = "pathiranabuddika53@gmail.com";
 		   $message=$final_content;
 		   $subject="Testing mails from Monza";
 			$headers = array('Content-Type: text/html; charset=UTF-8');

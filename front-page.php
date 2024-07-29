@@ -32,8 +32,8 @@ get_header();
                     <div id="first-img-container">
                             <!-- <img src="./inc/images/slider-1.png" alt=""> -->
 
-                            <video src="<?php echo get_template_directory_uri().'/images/promo-two.mp4'?>" height="100%" width="100%" controls autoplay>
-                                <source src="./inc/images/promo-one.mp4" type="video/mp4">
+                            <video src="<?php echo get_template_directory_uri().'/images/promo-three.mp4'?>" height="100%" width="100%" controls autoplay>
+                                <source src="./inc/images/promo-three.mp4" type="video/mp4">
                                   
                                         Il tuo browser non supporta il tag video.
                                   
@@ -87,11 +87,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri().'/images/clearance-2.jpg'?>" alt="">
                                 
                                  </div>
-                                 <div class="swiper-slide post-swiper-slide">
-                                    
-                                    <img src="<?php echo get_template_directory_uri().'/images/clearance-2.jpg'?>" alt="">
-                            
-                             </div>
+                               
 
 
 
@@ -118,11 +114,6 @@ get_header();
                                  <div class="swiper-slide post-swiper-slide">
                                     
                                         <img src="<?php echo get_template_directory_uri().'/images/garden-1.jpg'?>" alt="">
-                                
-                                 </div>
-                                 <div class="swiper-slide post-swiper-slide">
-                                    
-                                        <img src="<?php echo get_template_directory_uri().'/images/garden-2.jpg'?>" alt="">
                                 
                                  </div>
                                  <div class="swiper-slide post-swiper-slide">
@@ -287,7 +278,7 @@ get_header();
                  </div>
                  <div id="Confezionamento" class="impressa-service">
                         <div class="service-left">
-                            <img src="<?php echo get_template_directory_uri().'/images/package-3.jpg'?>" alt="">
+                            <img src="<?php echo get_template_directory_uri().'/images/packing-1.jpg'?>" alt="">
                         </div>
                         <div class="service-right">
                             <div class="service-title">
@@ -479,7 +470,7 @@ get_header();
                                Ufficio
                             </div>
                             <div id="impressa-contact-description">
-                                Via Fucini Renato 2,Monza,Italia
+                                Via Fucini Renato 2, Monza, Italia
                             </div>
                         </div>
                         <div id="impressa-contact-bottom-right">
@@ -490,8 +481,8 @@ get_header();
                                  Telefono
                             </div>
                             <div id="impressa-contact-description">
-                                +39 329 154 0470 
-                                <br> +39 351 747 7284
+                            <i class="bi bi-whatsapp"></i>  +39 329 154 0470 
+                              <br> <i class="bi bi-whatsapp"></i>  +39 351 747 7284
                             </div>
                         </div>
                     </div>
